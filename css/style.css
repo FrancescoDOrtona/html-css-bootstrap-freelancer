@@ -13,6 +13,7 @@
 ul, ol, menu{
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 
 a{
@@ -105,12 +106,6 @@ header{
     border-radius: 999px;
 }
 
-/* Portfolio */
-
-
-
-
-
 /* About */
 
 
@@ -147,6 +142,16 @@ footer{
 
 .footer__copyright{
     background-color: var(--blue);
+}
+
+.border__circle{
+    border-radius: 50%;
+    aspect-ratio: 1;
+    padding: 10px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* debug */
 
