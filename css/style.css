@@ -71,3 +71,11 @@ header{
     left: 100%;
     top: 50%;
 }
+
+
+/* debug */
+
+.debug [class^="col"]{
+    border: 1px solid black;
+    padding: 20px;
+}
