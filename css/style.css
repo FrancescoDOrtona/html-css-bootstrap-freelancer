@@ -58,6 +58,7 @@ header{
 
 .star__icon{
     position: relative;
+    font-size: 30px;
 }
 
 .left-line::before{
@@ -66,9 +67,10 @@ header{
     background-color: currentColor;
     position: absolute;
     width: 100px;
-    height: 3px;
+    height: 5px;
     right: 100%;
     top: 50%;
+    border-radius: 999px;
 }
 
 .right-line::after{
@@ -77,9 +79,10 @@ header{
     background-color: currentColor;
     position: absolute;
     width: 100px;
-    height: 3px;
+    height: 5px;
     left: 100%;
     top: 50%;
+    border-radius: 999px;
 }
 
 
