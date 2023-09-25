@@ -34,3 +34,40 @@ header{
     color: var(--gray);
     font-size: 18px;
 }
+
+/* hero */
+
+.hero{
+    background-color: var(--green);
+    color: var(--light);
+}
+
+.hero__img{
+    width: 230px;
+}
+
+.star__icon{
+    position: relative;
+}
+
+.left-line::before{
+    display: block;
+    content: '';
+    background-color: var(--light);
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    right: 100%;
+    top: 50%;
+}
+
+.right-line::after{
+    display: block;
+    content: '';
+    background-color: var(--light);
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    left: 100%;
+    top: 50%;
+}
