@@ -30,6 +30,7 @@ input{
     color: var(--blue);
 }
 
+
 /* Utility */
 
 .container__small{
@@ -125,6 +126,11 @@ input{
 .contact-button{
     background-color: var(--green);
     color: var(--light);
+}
+
+.form-control{
+    border: none;
+    padding: 0;
 }
 /* footer */
 
