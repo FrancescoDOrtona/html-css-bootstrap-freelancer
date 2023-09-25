@@ -45,6 +45,9 @@ input{
     color: var(--blue);
 }
 
+.text-green{
+    color: var(--green);
+}
 
 
 /* header */
