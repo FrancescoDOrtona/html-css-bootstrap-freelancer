@@ -20,6 +20,9 @@ a{
     color: currentColor;
 }
 
+img{
+    max-width: 100%;
+}
 /* Utility */
 
 .container__small{
