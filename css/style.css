@@ -24,6 +24,12 @@ img{
     max-width: 100%;
 }
 
+input{
+    border: none;
+    outline: none;
+    color: var(--blue);
+}
+
 /* Utility */
 
 .container__small{
@@ -110,7 +116,16 @@ header{
 }
 
 
+/* Contact me */
 
+input{
+    color: var(--blue);
+}
+
+.contact-button{
+    background-color: var(--green);
+    color: var(--light);
+}
 /* footer */
 
 footer{
