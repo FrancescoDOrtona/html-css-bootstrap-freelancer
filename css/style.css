@@ -30,6 +30,12 @@ a{
     max-width: 1140px;
 }
 
+.text-blue{
+    color: var(--blue);
+}
+
+
+
 /* header */
 
 header{
@@ -85,7 +91,35 @@ header{
     border-radius: 999px;
 }
 
+/* Portfolio */
 
+
+
+
+
+/* About */
+
+
+.about{
+    background-color: var(--green);
+    color: var(--light);
+}
+
+
+
+/* footer */
+
+footer{
+    color: var(--light);
+}
+
+.footer__main{
+    background-color: var(--light-blue);
+}
+
+.footer__copyright{
+    background-color: var(--blue);
+}
 /* debug */
 
 .debug [class^="col"]{
