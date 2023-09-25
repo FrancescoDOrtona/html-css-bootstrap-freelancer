@@ -20,6 +20,16 @@ a{
     color: currentColor;
 }
 
+/* Utility */
+
+.container__small{
+    max-width: 980px;
+}
+
+.container__large{
+    max-width: 1140px;
+}
+
 /* header */
 
 header{
