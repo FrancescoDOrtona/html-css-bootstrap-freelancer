@@ -21,9 +21,6 @@ a{
     color: currentColor;
 }
 
-img{
-    max-width: 100%;
-}
 
 input{
     border: none;
@@ -129,6 +126,12 @@ input{
 .form-control{
     border: none;
     padding: 0;
+    opacity: 0.6;
+}
+
+::placeholder{
+    color: var(--blue);
+    opacity: 0.6;
 }
 /* footer */
 
